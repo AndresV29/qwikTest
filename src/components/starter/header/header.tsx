@@ -7,8 +7,8 @@ export default component$(() => {
     <header class={styles.header}>
       <div class={["container", styles.wrapper]}>
         <div class={styles.logo}>
-          <a href="/" title="qwik">
-            <QwikLogo height={50} width={143} />
+          <a href="/" title="my app">
+            <QwikLogo height={60} width={150} />
           </a>
         </div>
         <ul>
@@ -35,6 +35,9 @@ export default component$(() => {
             >
               Tutorials
             </a>
+          </li>
+          <li>
+            <a href="_blank">Test</a>
           </li>
         </ul>
       </div>
